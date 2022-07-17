@@ -32,13 +32,13 @@ export default {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: lightgreen;
     color: rgb(255, 255, 255);
 
 }
 
 .container h1 {
 
+    color: darkgreen;
     text-align: center;
     font-size: 333%;
 
