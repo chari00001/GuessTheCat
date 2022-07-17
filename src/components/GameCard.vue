@@ -68,11 +68,9 @@ export default {
                 this.activeCard = answer.component;
                 setTimeout(() => {
                     if (answer.id == this.selectedCard) {
-                        alert("True!");
                         this.$emit("activeComponentEvent", "app-celebrate");
                     }
                     else{
-                        alert("Wrong...");
                         this.$emit("activeComponentEvent", "app-failure");
                     }
                 },800);
